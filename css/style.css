@@ -121,11 +121,6 @@ aside{
     border-radius: .25rem;
 }
 
-.texto-footer{
-    color: var(--color-main-light);
-    font-size: .85rem;
-}
-
 main{
     background-color: var(--color-white);
     margin: 1rem;
@@ -309,7 +304,7 @@ main{
     aside{
         position: fixed;
         z-index: 9;
-        background-color: var(--color-main);
+        background-color: var(--color-dark-gray);
         left: 0;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .75);
         transform: translateX(-100%);
