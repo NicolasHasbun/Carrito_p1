@@ -1,187 +1,187 @@
 // PRODUCTOS
 const productos = [
-    // Abrigos
+    // Posters
     {
-        id: "abrigo-01",
-        titulo: "Abrigo 01",
-        imagen: "../assets/img/abrigos/01.jpg",
+        id: "poster-01",
+        titulo: "Poster 01",
+        imagen: "../assets/img/Poster/Poster1.jpg",
         categoria: {
-            nombre: "Abrigos",
-            id: "abrigos"
+            nombre: "Posters",
+            id: "posters"
         },
         precio: 1000
     },
     {
-        id: "abrigo-02",
-        titulo: "Abrigo 02",
-        imagen: "../assets/img/abrigos/02.jpg",
+        id: "poster-02",
+        titulo: "Poster 02",
+        imagen: "../assets/img/Poster/Poster2.jpg",
         categoria: {
-            nombre: "Abrigos",
-            id: "abrigos"
+            nombre: "Posters",
+            id: "posters"
         },
         precio: 1000
     },
     {
-        id: "abrigo-03",
-        titulo: "Abrigo 03",
-        imagen: "../assets/img/abrigos/03.jpg",
+        id: "poster-03",
+        titulo: "Poster 03",
+        imagen: "../assets/img/Poster/Poster3.jpg",
         categoria: {
-            nombre: "Abrigos",
-            id: "abrigos"
+            nombre: "Posters",
+            id: "posters"
         },
         precio: 1000
     },
     {
-        id: "abrigo-04",
-        titulo: "Abrigo 04",
-        imagen: "../assets/img/abrigos/04.jpg",
+        id: "poster-04",
+        titulo: "Poster 04",
+        imagen: "../assets/img/Poster/Poster4.jpg",
         categoria: {
-            nombre: "Abrigos",
-            id: "abrigos"
+            nombre: "Posters",
+            id: "posters"
         },
         precio: 1000
     },
     {
-        id: "abrigo-05",
-        titulo: "Abrigo 05",
-        imagen: "../assets/img/abrigos/05.jpg",
+        id: "poster-05",
+        titulo: "Poster 05",
+        imagen: "../assets/img/Poster/Poster5.jpg",
         categoria: {
-            nombre: "Abrigos",
-            id: "abrigos"
+            nombre: "Posters",
+            id: "posters"
         },
         precio: 1000
     },
-    // Camisetas
+    // Poleras
     {
-        id: "camiseta-01",
-        titulo: "Camiseta 01",
-        imagen: "../assets/img/camisetas/01.jpg",
+        id: "polera-01",
+        titulo: "Polera 01",
+        imagen: "../assets/img/Polera/Polera1.jpg",
         categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
+            nombre: "Poleras",
+            id: "poleras"
         },
-        precio: 1000
+        precio: 2000
     },
     {
-        id: "camiseta-02",
-        titulo: "Camiseta 02",
-        imagen: "../assets/img/camisetas/02.jpg",
+        id: "polera-02",
+        titulo: "Polera 02",
+        imagen: "../assets/img/Polera/Polera2.jpg",
         categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
+            nombre: "Poleras",
+            id: "poleras"
         },
-        precio: 1000
+        precio: 2000
     },
     {
-        id: "camiseta-03",
-        titulo: "Camiseta 03",
-        imagen: "../assets/img/camisetas/03.jpg",
+        id: "polera-03",
+        titulo: "Polera 03",
+        imagen: "../assets/img/Polera/Polera3.jpg",
         categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
+            nombre: "Poleras",
+            id: "poleras"
         },
-        precio: 1000
+        precio: 2000
     },
     {
-        id: "camiseta-04",
-        titulo: "Camiseta 04",
-        imagen: "../assets/img/camisetas/04.jpg",
+        id: "polera-04",
+        titulo: "Polera 04",
+        imagen: "../assets/img/Polera/Polera4.jpg",
         categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
+            nombre: "Poleras",
+            id: "poleras"
         },
-        precio: 1000
+        precio: 2000
     },
     {
-        id: "camiseta-05",
-        titulo: "Camiseta 05",
-        imagen: "../assets/img/camisetas/05.jpg",
+        id: "polera-05",
+        titulo: "Polera 05",
+        imagen: "../assets/img/Polera/Polera5.jpg",
         categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
+            nombre: "Poleras",
+            id: "poleras"
         },
-        precio: 1000
+        precio: 2000
     },
     {
-        id: "camiseta-06",
-        titulo: "Camiseta 06",
-        imagen: "../assets/img/camisetas/06.jpg",
+        id: "polera-06",
+        titulo: "Polera 06",
+        imagen: "../assets/img/Polera/Polera6.jpg",
         categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
+            nombre: "Poleras",
+            id: "poleras"
         },
-        precio: 1000
+        precio: 2000
     },
     {
-        id: "camiseta-07",
-        titulo: "Camiseta 07",
-        imagen: "../assets/img/camisetas/07.jpg",
+        id: "polera-07",
+        titulo: "Polera 07",
+        imagen: "../assets/img/Polera/Polera7.jpg",
         categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
+            nombre: "Poleras",
+            id: "poleras"
         },
-        precio: 1000
+        precio: 2000
     },
     {
-        id: "camiseta-08",
-        titulo: "Camiseta 08",
-        imagen: "../assets/img/camisetas/08.jpg",
+        id: "polera-08",
+        titulo: "Polera 08",
+        imagen: "../assets/img/Polera/Polera8.jpg",
         categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
+            nombre: "Poleras",
+            id: "poleras"
         },
-        precio: 1000
+        precio: 2000
     },
-    // Pantalones
+    // Pins
     {
-        id: "pantalon-01",
-        titulo: "Pantalón 01",
-        imagen: "../assets/img/pantalones/01.jpg",
+        id: "Pin-01",
+        titulo: "Pin 01",
+        imagen: "../assets/img/Pin/Pin1.jpg",
         categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
+            nombre: "Pins",
+            id: "pins"
         },
-        precio: 1000
-    },
-    {
-        id: "pantalon-02",
-        titulo: "Pantalón 02",
-        imagen: "../assets/img/pantalones/02.jpg",
-        categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
-        },
-        precio: 1000
+        precio: 3000
     },
     {
-        id: "pantalon-03",
-        titulo: "Pantalón 03",
-        imagen: "../assets/img/pantalones/03.jpg",
+        id: "Pin-02",
+        titulo: "Pin 02",
+        imagen: "../assets/img/Pin/Pin2.jpg",
         categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
+            nombre: "Pins",
+            id: "pins"
         },
-        precio: 1000
+        precio: 3000
     },
     {
-        id: "pantalon-04",
-        titulo: "Pantalón 04",
-        imagen: "../assets/img/pantalones/04.jpg",
+        id: "Pin-03",
+        titulo: "Pin 03",
+        imagen: "../assets/img/Pin/Pin3.jpg",
         categoria: {
-            nombre: "",
-            id: "pantalones"
+            nombre: "Pins",
+            id: "pins"
         },
-        precio: 1000
+        precio: 3000
     },
     {
-        id: "pantalon-05",
-        titulo: "Pantalón 05",
-        imagen: "../assets/img/pantalones/05.jpg",
+        id: "Pin-04",
+        titulo: "Pin 04",
+        imagen: "../assets/img/Pin/Pin4.jpg",
         categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
+            nombre: "Pins",
+            id: "pins"
         },
-        precio: 1000
+        precio: 3000
+    },
+    {
+        id: "Pin-05",
+        titulo: "Pin 05",
+        imagen: "../assets/img/Pin/Pin5.jpg",
+        categoria: {
+            nombre: "Pins",
+            id: "pins"
+        },
+        precio: 3000
     }
 ];
 

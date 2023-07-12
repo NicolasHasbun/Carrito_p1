@@ -120,11 +120,6 @@ aside{
     border-radius: .25rem;
 }
 
-/* .boton-carrito.active .numerito{
-    background-color: var(--color-main);
-    color: var(--color-white);
-} */
-
 .texto-footer{
     color: var(--color-main-light);
     font-size: .85rem;
@@ -287,6 +282,8 @@ main{
 .disabled{
     display: none;
 }
+
+/* MediaQuerry */
 
 @media screen and (max-width: 850px) {
     .contenedor-productos {
