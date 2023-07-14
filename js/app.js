@@ -4,7 +4,7 @@ const productos = [
     {
         id: "poster-01",
         titulo: "Poster 01",
-        imagen: "../assets/img/Poster/Poster1.jpg",
+        imagen: "../assets/img/poster/poster1.jpg",
         categoria: {
             nombre: "Posters",
             id: "posters"
@@ -14,7 +14,7 @@ const productos = [
     {
         id: "poster-02",
         titulo: "Poster 02",
-        imagen: "../assets/img/Poster/Poster2.jpg",
+        imagen: "../assets/img/poster/poster2.jpg",
         categoria: {
             nombre: "Posters",
             id: "posters"
@@ -24,7 +24,7 @@ const productos = [
     {
         id: "poster-03",
         titulo: "Poster 03",
-        imagen: "../assets/img/Poster/Poster3.jpg",
+        imagen: "../assets/img/poster/poster3.jpg",
         categoria: {
             nombre: "Posters",
             id: "posters"
@@ -34,7 +34,7 @@ const productos = [
     {
         id: "poster-04",
         titulo: "Poster 04",
-        imagen: "../assets/img/Poster/Poster4.jpg",
+        imagen: "../assets/img/poster/poster4.jpg",
         categoria: {
             nombre: "Posters",
             id: "posters"
@@ -44,7 +44,7 @@ const productos = [
     {
         id: "poster-05",
         titulo: "Poster 05",
-        imagen: "../assets/img/Poster/Poster5.jpg",
+        imagen: "../assets/img/poster/poster5.jpg",
         categoria: {
             nombre: "Posters",
             id: "posters"
@@ -55,7 +55,7 @@ const productos = [
     {
         id: "polera-01",
         titulo: "Polera 01",
-        imagen: "../assets/img/Polera/Polera1.jpg",
+        imagen: "../assets/img/polera/polera1.jpg",
         categoria: {
             nombre: "Poleras",
             id: "poleras"
@@ -65,7 +65,7 @@ const productos = [
     {
         id: "polera-02",
         titulo: "Polera 02",
-        imagen: "../assets/img/Polera/Polera2.jpg",
+        imagen: "../assets/img/polera/polera2.jpg",
         categoria: {
             nombre: "Poleras",
             id: "poleras"
@@ -75,7 +75,7 @@ const productos = [
     {
         id: "polera-03",
         titulo: "Polera 03",
-        imagen: "../assets/img/Polera/Polera3.jpg",
+        imagen: "../assets/img/polera/polera3.jpg",
         categoria: {
             nombre: "Poleras",
             id: "poleras"
@@ -85,7 +85,7 @@ const productos = [
     {
         id: "polera-04",
         titulo: "Polera 04",
-        imagen: "../assets/img/Polera/Polera4.jpg",
+        imagen: "../assets/img/polera/polera4.jpg",
         categoria: {
             nombre: "Poleras",
             id: "poleras"
@@ -95,7 +95,7 @@ const productos = [
     {
         id: "polera-05",
         titulo: "Polera 05",
-        imagen: "../assets/img/Polera/Polera5.jpg",
+        imagen: "../assets/img/polera/polera5.jpg",
         categoria: {
             nombre: "Poleras",
             id: "poleras"
@@ -105,7 +105,7 @@ const productos = [
     {
         id: "polera-06",
         titulo: "Polera 06",
-        imagen: "../assets/img/Polera/Polera6.jpg",
+        imagen: "../assets/img/polera/polera6.jpg",
         categoria: {
             nombre: "Poleras",
             id: "poleras"
@@ -115,7 +115,7 @@ const productos = [
     {
         id: "polera-07",
         titulo: "Polera 07",
-        imagen: "../assets/img/Polera/Polera7.jpg",
+        imagen: "../assets/img/polera/polera7.jpg",
         categoria: {
             nombre: "Poleras",
             id: "poleras"
@@ -125,7 +125,7 @@ const productos = [
     {
         id: "polera-08",
         titulo: "Polera 08",
-        imagen: "../assets/img/Polera/Polera8.jpg",
+        imagen: "../assets/img/polera/polera8.jpg",
         categoria: {
             nombre: "Poleras",
             id: "poleras"
@@ -136,7 +136,7 @@ const productos = [
     {
         id: "Pin-01",
         titulo: "Pin 01",
-        imagen: "../assets/img/Pin/Pin1.jpg",
+        imagen: "../assets/img/pin/pin1.jpg",
         categoria: {
             nombre: "Pins",
             id: "pins"
@@ -146,7 +146,7 @@ const productos = [
     {
         id: "Pin-02",
         titulo: "Pin 02",
-        imagen: "../assets/img/Pin/Pin2.jpg",
+        imagen: "../assets/img/pin/pin2.jpg",
         categoria: {
             nombre: "Pins",
             id: "pins"
@@ -156,7 +156,7 @@ const productos = [
     {
         id: "Pin-03",
         titulo: "Pin 03",
-        imagen: "../assets/img/Pin/Pin3.jpg",
+        imagen: "../assets/img/pin/pin3.jpg",
         categoria: {
             nombre: "Pins",
             id: "pins"
@@ -166,7 +166,7 @@ const productos = [
     {
         id: "Pin-04",
         titulo: "Pin 04",
-        imagen: "../assets/img/Pin/Pin4.jpg",
+        imagen: "../assets/img/pin/pin4.jpg",
         categoria: {
             nombre: "Pins",
             id: "pins"
@@ -176,7 +176,7 @@ const productos = [
     {
         id: "Pin-05",
         titulo: "Pin 05",
-        imagen: "../assets/img/Pin/Pin5.jpg",
+        imagen: "../assets/img/pin/pin5.jpg",
         categoria: {
             nombre: "Pins",
             id: "pins"
