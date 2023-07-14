@@ -2,9 +2,9 @@
 const productos = [
     // Posters
     {
-        id: "posters",
+        id: "poster-01",
         titulo: "Poster 01",
-        imagen: "../assets/img/poster/poster1.jpg",
+        imagen: "./assets/img/poster/poster1.jpg",
         categoria: {
             nombre: "Posters",
             id: "posters"
