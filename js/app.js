@@ -1,189 +1,11 @@
-// PRODUCTOS
-const productos = [
-    // Posters
-    {
-        id: "poster-01",
-        titulo: "Poster 01",
-        imagen: "../assets/img/poster/poster1.jpg",
-        categoria: {
-            nombre: "Posters",
-            id: "posters"
-        },
-        precio: 1000
-    },
-    {
-        id: "poster-02",
-        titulo: "Poster 02",
-        imagen: "../assets/img/poster/poster2.jpg",
-        categoria: {
-            nombre: "Posters",
-            id: "posters"
-        },
-        precio: 1000
-    },
-    {
-        id: "poster-03",
-        titulo: "Poster 03",
-        imagen: "../assets/img/poster/poster3.jpg",
-        categoria: {
-            nombre: "Posters",
-            id: "posters"
-        },
-        precio: 1000
-    },
-    {
-        id: "poster-04",
-        titulo: "Poster 04",
-        imagen: "../assets/img/poster/poster4.jpg",
-        categoria: {
-            nombre: "Posters",
-            id: "posters"
-        },
-        precio: 1000
-    },
-    {
-        id: "poster-05",
-        titulo: "Poster 05",
-        imagen: "../assets/img/poster/poster5.jpg",
-        categoria: {
-            nombre: "Posters",
-            id: "posters"
-        },
-        precio: 1000
-    },
-    // Poleras
-    {
-        id: "polera-01",
-        titulo: "Polera 01",
-        imagen: "../assets/img/polera/polera1.jpg",
-        categoria: {
-            nombre: "Poleras",
-            id: "poleras"
-        },
-        precio: 2000
-    },
-    {
-        id: "polera-02",
-        titulo: "Polera 02",
-        imagen: "../assets/img/polera/polera2.jpg",
-        categoria: {
-            nombre: "Poleras",
-            id: "poleras"
-        },
-        precio: 2000
-    },
-    {
-        id: "polera-03",
-        titulo: "Polera 03",
-        imagen: "../assets/img/polera/polera3.jpg",
-        categoria: {
-            nombre: "Poleras",
-            id: "poleras"
-        },
-        precio: 2000
-    },
-    {
-        id: "polera-04",
-        titulo: "Polera 04",
-        imagen: "../assets/img/polera/polera4.jpg",
-        categoria: {
-            nombre: "Poleras",
-            id: "poleras"
-        },
-        precio: 2000
-    },
-    {
-        id: "polera-05",
-        titulo: "Polera 05",
-        imagen: "../assets/img/polera/polera5.jpg",
-        categoria: {
-            nombre: "Poleras",
-            id: "poleras"
-        },
-        precio: 2000
-    },
-    {
-        id: "polera-06",
-        titulo: "Polera 06",
-        imagen: "../assets/img/polera/polera6.jpg",
-        categoria: {
-            nombre: "Poleras",
-            id: "poleras"
-        },
-        precio: 2000
-    },
-    {
-        id: "polera-07",
-        titulo: "Polera 07",
-        imagen: "../assets/img/polera/polera7.jpg",
-        categoria: {
-            nombre: "Poleras",
-            id: "poleras"
-        },
-        precio: 2000
-    },
-    {
-        id: "polera-08",
-        titulo: "Polera 08",
-        imagen: "../assets/img/polera/polera8.jpg",
-        categoria: {
-            nombre: "Poleras",
-            id: "poleras"
-        },
-        precio: 2000
-    },
-    // Pins
-    {
-        id: "Pin-01",
-        titulo: "Pin 01",
-        imagen: "../assets/img/pin/pin1.jpg",
-        categoria: {
-            nombre: "Pins",
-            id: "pins"
-        },
-        precio: 3000
-    },
-    {
-        id: "Pin-02",
-        titulo: "Pin 02",
-        imagen: "../assets/img/pin/pin2.jpg",
-        categoria: {
-            nombre: "Pins",
-            id: "pins"
-        },
-        precio: 3000
-    },
-    {
-        id: "Pin-03",
-        titulo: "Pin 03",
-        imagen: "../assets/img/pin/pin3.jpg",
-        categoria: {
-            nombre: "Pins",
-            id: "pins"
-        },
-        precio: 3000
-    },
-    {
-        id: "Pin-04",
-        titulo: "Pin 04",
-        imagen: "../assets/img/pin/pin4.jpg",
-        categoria: {
-            nombre: "Pins",
-            id: "pins"
-        },
-        precio: 3000
-    },
-    {
-        id: "Pin-05",
-        titulo: "Pin 05",
-        imagen: "../assets/img/pin/pin5.jpg",
-        categoria: {
-            nombre: "Pins",
-            id: "pins"
-        },
-        precio: 3000
-    }
-];
+let productos = [];
+
+fetch("./js/productos.json")
+    .then(response => response.json())
+    .then(data => {
+        productos = data;
+        cargarProductos(productos);
+    })
 
 const contenedorProductos = document.querySelector("#contenedor-productos");
 const botonesCategorias = document.querySelectorAll(".boton-categoria");
@@ -215,7 +37,6 @@ function cargarProductos(productosElegidos){
     actualizarBotonesAgregar();
 }
 
-cargarProductos(productos);
 
 botonesCategorias.forEach(boton => {
     boton.addEventListener("click", (e) => {
@@ -258,6 +79,27 @@ if (productosEnCarritoLS){
 }
 
 function agregarAlCarrito(e){
+    Toastify({
+        text: "Producto agregado",
+        duration: 1000,
+        newWindow: true,
+        close: true,
+        gravity: "top", // `top` or `bottom`
+        position: "right", // `left`, `center` or `right`
+        stopOnFocus: true, // Prevents dismissing of toast on hover
+        style: {
+          background: "linear-gradient(to right, #161922, #785ce9)",
+          borderRadius:"2rem",
+          textTransform:"uppercase",
+          fontSize:".75rem"
+        },
+        offset: {
+            x: "1.5rem", // horizontal axis - can be a number or a string indicating unity. eg: '2em'
+            y: "1.5rem"// vertical axis - can be a number or a string indicating unity. eg: '2em'
+          },
+        onClick: function(){} // Callback after click
+    }).showToast();
+
     const idBoton = e.currentTarget.id;
     const productoAgregado = productos.find(producto => producto.id === idBoton);
 
